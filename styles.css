@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bookmark-container {
+  width: 30px; /* Set the width of the container */
+  height: 50px; /* Set the height of the container */
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookmark-icon {
+  width: 100px; /* Set the width of the icon */
+  height: 100px; /* Set the height of the icon */
+  background-color: purple; /* Set the background color of the icon */
+  rotate: 90deg;
+}
